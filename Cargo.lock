@@ -1033,6 +1033,9 @@ dependencies = [
  "agave-geyser-plugin-interface",
  "bs58",
  "solana-clock 4.0.0",
+ "solana-signature",
+ "solana-transaction",
+ "solana-transaction-status",
 ]
 
 [[package]]

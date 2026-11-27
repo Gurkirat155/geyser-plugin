@@ -11,3 +11,6 @@ agave-geyser-plugin-interface = "=4.3.2"   # MUST equal `solana-test-validator -
 # agave-geyser-plugin-interface  = "../ag/geyser-plugin-interface"
 bs58 = "0.5" # this is encoding and decoding (understand it later)
 solana-clock = "=4.0.0"
+solana-signature = "3.6.0"
+solana-transaction = "=4.3.0"
+solana-transaction-status = "=4.3.2"
