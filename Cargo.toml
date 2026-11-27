@@ -8,4 +8,6 @@ crate-type = ["cdylib"]
 
 [dependencies]
 agave-geyser-plugin-interface = "=4.3.2"   # MUST equal `solana-test-validator --version`
-bs58 = "0.5"
+# agave-geyser-plugin-interface  = "../ag/geyser-plugin-interface"
+bs58 = "0.5" # this is encoding and decoding (understand it later)
+solana-clock = "=4.0.0"
